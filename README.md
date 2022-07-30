@@ -34,8 +34,8 @@ Desktop:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/abuk111/stats-preview-card-component-main)
+- Live Site URL: [Click!](https://abuk111.github.io/stats-preview-card-component-main/)
 
 ## My process
 
