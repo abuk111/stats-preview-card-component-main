@@ -69,7 +69,8 @@ body {
   width: 100%;
   background-color: #aa5cdb;
   z-index: 1;
-  opacity: 0.5;
+  mix-blend-mode: multiply;
+  opacity: 0.75;
 }
 
 .card__text {
@@ -174,7 +175,7 @@ h1 {
     padding: 5.33em 4.67em 4em;
   }
   .card__text-head {
-    margin-bottom: .94em;
+    margin-bottom: 0.94em;
     padding-right: 2em;
     text-align: left;
     font-size: 3.2rem;
