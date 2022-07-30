@@ -1,0 +1,210 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+  font-size: 1.5rem;
+  font-family: 'Inter', sans-serif;
+  background-color: #090b1a;
+  color: white;
+}
+
+.wrapper {
+  max-width: 330px;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 1.67em 0;
+  background-color: #1b1938;
+  border-radius: 0.5em;
+  overflow: hidden;
+}
+
+.card__heroimg {
+  position: relative;
+  height: 240px;
+}
+
+.card__heroimg-image {
+  height: 100%;
+  background-image: url(../images/image-header-mobile.jpg);
+  background-size: cover;
+}
+
+.card__heroimg-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #aa5cdb;
+  z-index: 1;
+  opacity: 0.5;
+}
+
+.card__text {
+  padding: 2.6em 1.67em 1.5em;
+}
+
+.card__text-head {
+  margin-bottom: 0.5em;
+  text-align: center;
+  font-size: 2.67rem;
+  font-weight: 700;
+}
+
+.card__text-head span {
+  color: #aa5cdb;
+}
+
+.card__text-p {
+  margin-bottom: 2em;
+  padding: 0 0.5em;
+  color: rgba(255, 255, 255, 0.75);
+  text-align: center;
+  line-height: 1.7em;
+}
+
+.card__text-num {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card__text-num-box {
+  margin: 1em 0;
+  text-align: center;
+}
+
+.card__text-num-box h3 {
+  font-size: 2.2rem;
+  margin-bottom: 0.4em;
+}
+
+.card__text-num-box p {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: 'Lexend Deca', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+h1 {
+  display: none;
+}
+
+.attribution {
+  margin-bottom: 0.5em;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+@media (min-width: 1200px) {
+  .wrapper {
+    min-width: 1110px;
+  }
+  .card {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    overflow: hidden;
+  }
+  .card__heroimg {
+    width: 540px;
+    height: 440px;
+  }
+  .card__text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 570px;
+    padding: 5.33em 4.67em 4em;
+  }
+  .card__text-head {
+    margin-bottom: .94em;
+    padding-right: 2em;
+    text-align: left;
+    font-size: 3.2rem;
+  }
+  .card__text-p {
+    margin-bottom: 5.33em;
+    padding-right: 2em;
+    text-align: left;
+    font-size: 1.5rem;
+    line-height: 1.47em;
+  }
+  .card__text-num {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .card__text-num-box {
+    margin: 0;
+    margin-right: 4.33em;
+    text-align: left;
+  }
+  .card__text-num-box h3 {
+    margin-bottom: 0.2em;
+  }
+}
+/*# sourceMappingURL=style.css.map */
